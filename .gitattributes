@@ -1,0 +1,7 @@
+/config/private/* filter=openssl diff=openssl
+/config/private/*/* filter=openssl diff=openssl
+/config/private/*/*/* filter=openssl diff=openssl
+/config/private/*/*/*/* filter=openssl diff=openssl
+/config/private/*/*/*/*/* filter=openssl diff=openssl
+[merge]
+    renormalize=true
